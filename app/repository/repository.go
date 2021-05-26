@@ -20,8 +20,7 @@ import (
 )
 
 const (
-	limit            = 20
-	mainSupplierCode = "preo"
+	limit = 20
 )
 
 func check(err error) bool {
