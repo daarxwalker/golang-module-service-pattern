@@ -1,0 +1,21 @@
+app:
+  name: "example"
+  port: 8000
+
+cache:
+  address: cache:1234
+  password: 12345
+  db: 0
+
+database:
+  production:
+    address: "example:1234"
+    dbname: "db"
+    user: "user"
+    password: "password"
+
+  development:
+    address: "example:1234"
+    dbname: "db"
+    user: "user"
+    password: "password"
